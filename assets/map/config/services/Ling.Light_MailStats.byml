@@ -1,0 +1,11 @@
+mail_stats:
+    instance: Ling\Light_MailStats\Service\LightMailStatsService
+    methods:
+        setContainer:
+            container: @container()
+        setOptions:
+            options: []
+
+
+
+
