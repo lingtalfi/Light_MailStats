@@ -2,3 +2,8 @@
     - Ling:Light:0.70.10
     - Ling:Light_Database:1.14.28
     - Ling:SimplePdoWrapper:1.30.19
+
+0.0.2: 
+    - Ling:Light:0.70.10
+    - Ling:Light_Database:1.14.28
+    - Ling:SimplePdoWrapper:1.30.19

@@ -75,6 +75,10 @@ mail_stats:
 History Log
 =============
 
+- 0.0.2 -- 2021-06-18
+
+    - fix forgot to generate doc api
+  
 - 0.0.1 -- 2021-06-18
 
     - initial commit

@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightMailStatsController::redirect](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Controller/LightMailStatsController/redirect.md)(Ling\Light\Http\HttpRequestInterface $request) : Ling\Light\Http\HttpResponseInterface
+public [LightMailStatsController::redirect](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Controller/LightMailStatsController/redirect.md)(Ling\Light\Http\HttpRequestInterface $request) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 
 
@@ -40,7 +40,7 @@ Parameters
 Return values
 ================
 
-Returns Ling\Light\Http\HttpResponseInterface.
+Returns [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md).
 
 
 

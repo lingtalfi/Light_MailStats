@@ -25,8 +25,8 @@ Class synopsis
 class <span class="pl-k">CustomLightMailStatsApiFactory</span> extends [LightMailStatsApiFactory](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory.md)  {
 
 - Inherited properties
-    - protected Ling\SimplePdoWrapper\SimplePdoWrapperInterface [LightMailStatsApiFactory::$pdoWrapper](#property-pdoWrapper) ;
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightMailStatsApiFactory::$container](#property-container) ;
+    - protected [Ling\SimplePdoWrapper\SimplePdoWrapperInterface](https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md) [LightMailStatsApiFactory::$pdoWrapper](#property-pdoWrapper) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightMailStatsApiFactory::$container](#property-container) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Custom/CustomLightMailStatsApiFactory/__construct.md)() : void
@@ -34,8 +34,8 @@ class <span class="pl-k">CustomLightMailStatsApiFactory</span> extends [LightMai
 - Inherited methods
     - public [LightMailStatsApiFactory::getTrackerApi](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/getTrackerApi.md)() : [CustomTrackerApiInterface](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Custom/Interfaces/CustomTrackerApiInterface.md)
     - public [LightMailStatsApiFactory::getStatsApi](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/getStatsApi.md)() : [CustomStatsApiInterface](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Custom/Interfaces/CustomStatsApiInterface.md)
-    - public [LightMailStatsApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setPdoWrapper.md)(Ling\SimplePdoWrapper\SimplePdoWrapperInterface $pdoWrapper) : void
-    - public [LightMailStatsApiFactory::setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public [LightMailStatsApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setPdoWrapper.md)([Ling\SimplePdoWrapper\SimplePdoWrapperInterface](https://github.com/lingtalfi/SimplePdoWrapper/blob/master/doc/api/Ling/SimplePdoWrapper/SimplePdoWrapperInterface.md) $pdoWrapper) : void
+    - public [LightMailStatsApiFactory::setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
 }
 

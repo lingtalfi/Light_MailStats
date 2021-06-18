@@ -25,13 +25,13 @@ Class synopsis
 class <span class="pl-k">LightMailStatsService</span>  {
 
 - Properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [$container](#property-container) ;
     - protected array [$options](#property-options) ;
     - protected [Ling\Light_MailStats\Api\Custom\CustomLightMailStatsApiFactory](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Custom/CustomLightMailStatsApiFactory.md)|null [$factory](#property-factory) ;
 
 - Methods
     - public [__construct](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/__construct.md)() : void
-    - public [setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public [setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
     - public [setOptions](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/setOptions.md)(array $options) : void
     - private [error](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/error.md)(string $msg) : void
     - public [getFactory](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/getFactory.md)() : [CustomLightMailStatsApiFactory](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Custom/CustomLightMailStatsApiFactory.md)

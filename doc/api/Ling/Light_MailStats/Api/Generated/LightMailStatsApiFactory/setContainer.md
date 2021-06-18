@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightMailStatsApiFactory::setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setContainer.md)(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+public [LightMailStatsApiFactory::setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Api/Generated/LightMailStatsApiFactory/setContainer.md)([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
 
 
 
