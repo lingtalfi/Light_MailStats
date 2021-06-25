@@ -4,7 +4,7 @@
 
 The LightMailStatsException class
 ================
-2021-06-18 --> 2021-06-18
+2021-06-18 --> 2021-06-25
 
 
 
@@ -54,4 +54,4 @@ See the source code of [Ling\Light_MailStats\Exception\LightMailStatsException](
 
 SeeAlso
 ==============
-Previous class: [LightMailStatsController](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Controller/LightMailStatsController.md)<br>Next class: [LightMailStatsService](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService.md)<br>
+Previous class: [LightMailStatsController](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Controller/LightMailStatsController.md)<br>Next class: [LightMailStatsPlanetInstaller](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Light_PlanetInstaller/LightMailStatsPlanetInstaller.md)<br>

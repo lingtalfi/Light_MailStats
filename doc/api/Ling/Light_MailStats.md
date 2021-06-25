@@ -1,6 +1,6 @@
 Ling/Light_MailStats
 ================
-2021-06-18 --> 2021-06-18
+2021-06-18 --> 2021-06-25
 
 
 
@@ -181,6 +181,13 @@ Table of contents
     - LightController::__construct &ndash; Builds the LightController instance.
     - LightController::setLight &ndash; Sets the light instance.
 - [LightMailStatsException](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Exception/LightMailStatsException.md) &ndash; The LightMailStatsException class.
+- [LightMailStatsPlanetInstaller](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Light_PlanetInstaller/LightMailStatsPlanetInstaller.md) &ndash; The LightMailStatsPlanetInstaller class.
+    - [LightMailStatsPlanetInstaller::init2](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Light_PlanetInstaller/LightMailStatsPlanetInstaller/init2.md) &ndash; Executes the init 2 phase of the install command.
+    - [LightMailStatsPlanetInstaller::undoInit2](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Light_PlanetInstaller/LightMailStatsPlanetInstaller/undoInit2.md) &ndash; Undoes the init 2 phase.
+    - LightDatabaseBasePlanetInstaller::__construct &ndash; Builds the LightDatabaseBasePlanetInstaller instance.
+    - LightDatabaseBasePlanetInstaller::init3 &ndash; Executes the init 3 phase of the install command.
+    - LightDatabaseBasePlanetInstaller::undoInit3 &ndash; Undoes the init 3 phase.
+    - LightBasePlanetInstaller::setContainer &ndash; Sets the light service container interface.
 - [LightMailStatsService](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService.md) &ndash; The LightMailStatsService class.
     - [LightMailStatsService::__construct](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/__construct.md) &ndash; Builds the LightMailStatsService instance.
     - [LightMailStatsService::setContainer](https://github.com/lingtalfi/Light_MailStats/blob/master/doc/api/Ling/Light_MailStats/Service/LightMailStatsService/setContainer.md) &ndash; Sets the container.
@@ -190,8 +197,11 @@ Table of contents
 
 Dependencies
 ============
+- [CliTools](https://github.com/lingtalfi/CliTools)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
+- [Light_EasyRoute](https://github.com/lingtalfi/Light_EasyRoute)
+- [Light_PlanetInstaller](https://github.com/lingtalfi/Light_PlanetInstaller)
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
 
 

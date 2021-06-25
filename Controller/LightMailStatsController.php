@@ -32,7 +32,7 @@ class LightMailStatsController extends LightController
     public function redirect(HttpRequestInterface $request): HttpResponseInterface
     {
 
-        $trackerId = $request->getPostValue("tid", false);
+        $trackerId = $request->getGetValue("tid", false);
 
         $error = null;
 

@@ -4,8 +4,9 @@ mail_stats:
         setContainer:
             container: @container()
         setOptions:
-            options: []
+            options: ${mail_stats_vars.service_options}
 
 
 
-
+mail_stats_vars:
+    service_options: []

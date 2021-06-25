@@ -1,6 +1,6 @@
 Light_MailStats
 ===========
-2021-06-18
+2021-06-18 -> 2021-06-25
 
 
 Work in progress...
@@ -60,11 +60,12 @@ mail_stats:
         setContainer:
             container: @container()
         setOptions:
-            options: []
+            options: ${mail_stats_vars.service_options}
 
 
 
-
+mail_stats_vars:
+    service_options: []
 
 
 
@@ -75,6 +76,10 @@ mail_stats:
 History Log
 =============
 
+- 0.0.3 -- 2021-06-25
+
+    - adding redirect route
+  
 - 0.0.2 -- 2021-06-18
 
     - fix forgot to generate doc api

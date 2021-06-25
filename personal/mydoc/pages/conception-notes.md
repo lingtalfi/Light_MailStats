@@ -1,6 +1,6 @@
 Light_MailStats, conception notes
 ================
-2021-06-15 -> 2021-06-16
+2021-06-15 -> 2021-06-25
 
 
 Collecting mail stats.
@@ -58,7 +58,7 @@ Note:
 
 The redirect service
 -------
-2021-06-15 -> 2021-06-16
+2021-06-15 -> 2021-06-25
 
 
 We provide a **redirect service**, which is an [alcp service](https://github.com/lingtalfi/TheBar/blob/master/discussions/alcp-service.md).
@@ -79,7 +79,7 @@ Note: you might want to adapt this raw information to make it more presentable f
 Once the raw information is collected, we redirect the user to whichever url is written in the **tracker**.
 
 
-If the **tracker id** (tid) is not provided, our **redirect service** will display a plain error message and return one of the following status code:
+If the **tracker id** (tid) is not provided (via GET), our **redirect service** will display a plain error message and return one of the following status code:
 
 - 404. Not Found
 
@@ -101,3 +101,39 @@ The tracking can be done in different ways:
 
 
 Some mail clients may be aware of the tiny image technique and won't allow it, so it's not 100% reliable, but generally gives good approximation.
+
+
+
+Some thoughts about tracker organization 
+---------
+2021-06-18
+
+
+Trackers are organized by group/name pair.
+
+I'm currently trying this scheme on the name:
+
+
+- $trackerType-$trackerIdentifier
+
+
+With:
+
+- $trackerType: one of:
+    - link  (html link)
+    - open  (invisible image)
+- $trackerIdentifier: arbitrary string in [snake case](https://github.com/lingtalfi/ConventionGuy/blob/master/nomenclature.stringCases.eng.md#snakecase)
+
+
+
+I just wanted to share this idea (not sure if it's any good).
+
+
+
+
+
+
+
+
+
+
